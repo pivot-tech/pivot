@@ -9,6 +9,6 @@ jobs:
       - name: Setup NodeJS Env
         uses: actions/setup-node@v2-beta
       - name: Install Deps
-        run: npm ci
+        run: npm i
       - name: Run Tests
         run: npm t
