@@ -35,22 +35,51 @@
   },
   "private": true,
   "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-react": "7.9.4",
+    "@babel/preset-typescript": "7.9.0",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@nrwl/cli": "10.4.4",
+    "@nrwl/cypress": "10.4.4",
+    "@nrwl/eslint-plugin-nx": "10.4.4",
+    "@nrwl/jest": "10.4.4",
+    "@nrwl/next": "^10.4.4",
+    "@nrwl/react": "10.4.4",
     "@nrwl/tao": "10.4.4",
+    "@nrwl/web": "10.4.4",
     "@nrwl/workspace": "10.4.4",
+    "@testing-library/react": "11.1.2",
+    "@types/jest": "26.0.8",
     "@types/node": "~8.9.4",
+    "@types/react": "16.9.56",
+    "@types/react-dom": "16.9.9",
+    "@types/react-is": "16.7.1",
+    "@types/styled-components": "5.1.4",
+    "@typescript-eslint/eslint-plugin": "4.3.0",
+    "@typescript-eslint/parser": "4.3.0",
+    "babel-jest": "26.2.2",
+    "babel-plugin-styled-components": "1.10.7",
+    "cypress": "^5.5.0",
     "cz-conventional-changelog": "3.3.0",
     "dotenv": "6.2.0",
     "eslint": "7.10.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
     "husky": "^4.3.0",
+    "jest": "26.2.2",
     "lerna": "^3.22.1",
     "prettier": "2.1.2",
+    "semantic-release": "^17.3.0",
+    "ts-jest": "26.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
-    "typescript": "~4.0.3",
-    "semantic-release": "^17.3.0"
+    "typescript": "~4.0.3"
   },
   "config": {
     "commitizen": {
@@ -60,5 +89,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pivot-tech/pivot.git"
+  },
+  "dependencies": {
+    "document-register-element": "1.13.1",
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-is": "17.0.1",
+    "styled-components": "5.2.1",
+    "tslib": "^2.0.0"
   }
 }
