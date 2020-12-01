@@ -22,5 +22,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "courses": {
+      "tags": []
+    },
+    "courses-e2e": {
+      "tags": [],
+      "implicitDependencies": ["courses"]
+    }
+  }
 }
